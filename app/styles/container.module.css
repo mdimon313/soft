@@ -1,0 +1,11 @@
+.container {
+  min-width: 1260px;
+  margin: 0 atuo;
+  padding: 0 48px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    min-width: 100% !important;
+  }
+}
