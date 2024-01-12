@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <footer className={footerStyle.footer}>
             <Container>
-                <p>&copy; all rights resarve are nur-soft</p>
+                <p>&copy; all rights resarved</p>
             </Container>
         </footer >
     )
