@@ -1,10 +1,9 @@
-import homeStyle from "@/app/styles/home.module.css"
-import Container from "./components/Container"
-import Banner from "./components/Banner"
-import Weare from "./components/Weare"
-import OurService from "./components/OurService"
-import ChooseUs from "./components/ChooseUs"
-import OurProject from "./components/OurPorjects"
+import homeStyle from "@/app/styles/home.module.css";
+import Banner from "./components/Banner";
+import Weare from "./components/Weare";
+import OurService from "./components/OurService";
+import ChooseUs from "./components/ChooseUs";
+import OurProject from "./components/OurPorjects";
 export default function Home() {
   return (
     <main className={homeStyle.main}>
