@@ -10,9 +10,9 @@ export default function OurService() {
             {/* Our service */}
             <Container>
                 <Title title="Our Service" titleDesc="We help you build great software within budget" />
-                <div className={serviceStyle.service_main}>
+                <div className={serviceStyle.main}>
                     {service_info.map((service, ind) => {
-                        return <ServiceCard key={ind} icon={service.icon} title={service.title} desc={service.desc} link={"/"} isButton={true} />
+                        return <ServiceCard key={ind} icon={service.icon} title={service.title} desc={service.desc} link={service.links} isButton={true} />
                     })}
                 </div>
             </Container>

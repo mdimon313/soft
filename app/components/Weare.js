@@ -19,7 +19,7 @@ const Weare = () => {
                         </p>
                     </div>
                     <div className={weAreStyle.box_right}>
-                        <Image src={weAre} alt="img" priority={true} placeholder="blur" />
+                        <Image src={weAre} alt="img" placeholder="blur" quality={100} priority={true} />
                     </div>
                 </div>
             </Container>

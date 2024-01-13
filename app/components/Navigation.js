@@ -35,9 +35,9 @@ export default function Navigation() {
                     {/* <Link className={navStyle.link} href="/service">Service</Link> */}
                     <div className={`${navStyle.submenu} ${showSubmenu ? navStyle.show : navStyle.hide}`} >
                         <ul>
-                            <li><Link href="/service/soft_dev" className={`${navStyle.submenu_link}`}>Software Development Training</Link></li>
-                            <li><Link href="/service/web_dev" className={`${navStyle.submenu_link}`}>Website Development Training</Link></li>
-                            <li><Link href="/service/it" className={`${navStyle.submenu_link}`}>It Consultancy</Link></li>
+                            <li><Link href="/service/soft_dev" className={`${navStyle.submenu_link} ${pathname == '/service/soft_dev' ? navStyle.active : ''}`}>Software Development Training</Link></li>
+                            <li><Link href="/service/web_dev" className={`${navStyle.submenu_link} ${pathname == '/service/web_dev' ? navStyle.active : ''}`}>Website Development Training</Link></li>
+                            <li><Link href="/service/it" className={`${navStyle.submenu_link} ${pathname == '/service/it' ? navStyle.active : ''}`}>It Consultancy</Link></li>
                         </ul>
                     </div>
                 </li>
