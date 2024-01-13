@@ -1,11 +1,11 @@
-// import homeStyle from "@/app/styles/home.module.css"
-import Container from "./components/Container"
+import Container from "../components/Container";
+
 export default function About() {
     return (
-        <div>
+        <section>
             <Container>
-                <h1>This is About</h1>
+                <h2>This is About Page</h2>
             </Container>
-        </div>
+        </section>
     )
 }
