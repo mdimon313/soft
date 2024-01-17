@@ -4,6 +4,7 @@ import Weare from "./components/Weare";
 import OurService from "./components/OurService";
 import ChooseUs from "./components/ChooseUs";
 import OurProject from "./components/OurPorjects";
+import Team from "./components/Team";
 export default function Home() {
   return (
     <main className={homeStyle.main}>
@@ -12,6 +13,7 @@ export default function Home() {
       <OurService />
       <ChooseUs />
       <OurProject />
+      <Team />
     </main>
   )
 }

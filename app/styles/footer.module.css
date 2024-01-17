@@ -5,3 +5,25 @@
   color: var(--text-color);
   padding: 2rem 0;
 }
+
+.footer_wrapper {
+  gap: 16px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-top: 16px;
+  gap: 16px;
+  place-content: cetner;
+}
+
+.com_info {
+  text-align: center;
+}
+
+.com_info > p {
+  font-size: 0.8em;
+  color: var(--text-color);
+}
+
+.com_info address {
+  font-size: 0.8em;
+}
