@@ -1,6 +1,6 @@
 import Image from "next/image";
 import weAreStyle from '@/app/styles/weare.module.css';
-import weAre from "@/public/banner/bg3.jpg";
+import weAre from "@/public/banner/weare.jpg";
 import Container from "./Container";
 
 const Weare = () => {
