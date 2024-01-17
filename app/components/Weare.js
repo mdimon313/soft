@@ -1,6 +1,6 @@
 import Image from "next/image";
 import weAreStyle from '@/app/styles/weare.module.css';
-import weAre from "@/public/banner/weare.jpg";
+import weAre from "@/public/banner/bg3.jpg";
 import Container from "./Container";
 
 const Weare = () => {
@@ -19,7 +19,7 @@ const Weare = () => {
                         </p>
                     </div>
                     <div className={weAreStyle.box_right}>
-                        <Image src={weAre} alt="img" placeholder="blur" quality={100} priority={true} />
+                        <Image src={weAre} alt="img" width={100} height={100} placeholder="blur" quality={100} priority={true} />
                     </div>
                 </div>
             </Container>
