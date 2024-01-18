@@ -9,6 +9,12 @@
 .nav .logo {
   color: var(--text-color);
 }
+
+.nav .logo img {
+  display: block;
+  width: 64px;
+  height: 100%;
+}
 .nav > ul {
   list-style: none;
   display: flex;
@@ -63,7 +69,7 @@
 
 .submenu {
   position: absolute;
-  bottom: -102px;
+  bottom: -133px;
   background-color: var(--primary-bg);
   border-radius: 5px;
   font-size: 13px;

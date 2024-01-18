@@ -6,10 +6,12 @@ import { usePathname } from "next/navigation";
 import { RiArrowDownSLine } from "react-icons/ri";
 import { FaTimes } from "react-icons/fa";
 import { FaAlignRight } from "react-icons/fa6";
+import logo from '@/public/logo.png';
+import Image from "next/image";
 
 export default function Navigation() {
     const [showSubmenu, setShowSubmenu] = useState(false);
-    const [isClick, isSetClick] = useState(false);
+    const [isClick, setIsSetClick] = useState(false);
     const pathname = usePathname();
 
     const showSubMenuFunc = () => {
@@ -24,11 +26,13 @@ export default function Navigation() {
         transition: "all 0.3s ease-in-out"
     }
     const toggleNavbar = () => {
-        isSetClick(!isClick);
+        setIsSetClick(!isClick);
     }
     return (
         <nav className={navStyle.nav}>
-            <div className={navStyle.logo}><h2>Logo</h2></div>
+            <div className={navStyle.logo}>
+                <Link href={"/"} ><Image src={logo} alt="Nur-Soft" quality={100} priority={true} /></Link>
+            </div>
             <ul style={isClick ? { transform: "scaleY(1)" } : {}}>
                 <li><Link className={`${navStyle.link} ${pathname == '/' ? navStyle.active : ''}`} href="/">Home</Link></li>
                 <li className={navStyle.main_menu}> <span className={`${navStyle.link} ${navStyle.li_span}`} onClick={() => showSubMenuFunc()}>Service <RiArrowDownSLine style={showSubmenu ? iconTransform : ''} /></span>
