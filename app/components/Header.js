@@ -7,7 +7,7 @@ import Navigation from "./Navigation"
 export default function Header() {
     const [setHeader, setIsHeader] = useState(false);
     const scrollHeader = () => {
-        if (window.scrollY >= 100) {
+        if (window.scrollY > 0) {
             setIsHeader(true);
         } else {
             setIsHeader(false);

@@ -1,0 +1,15 @@
+.section_img {
+  margin-bottom: 16px;
+}
+
+.sectionimg {
+  width: 100%;
+  display: block;
+  height: auto;
+  border-radius: 5px;
+}
+
+.section_meta > p {
+  margin: 8px 0px;
+  font-size: 15px;
+}

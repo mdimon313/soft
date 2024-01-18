@@ -1,0 +1,5 @@
+.Portfolio {
+  height: 45vh;
+  display: grid;
+  place-items: center;
+}
