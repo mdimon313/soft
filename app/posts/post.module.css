@@ -1,0 +1,18 @@
+.post {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+}
+
+.link {
+  background-color: #f8f8f8;
+  transition: all 0.3s ease-in-out;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.link:hover {
+  background-color: #e8e8e8;
+  color: dodgerblue;
+}

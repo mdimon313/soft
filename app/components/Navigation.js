@@ -47,6 +47,7 @@ export default function Navigation() {
                     </div>
                 </li>
                 <li><Link className={`${navStyle.link} ${pathname == '/portfolio' ? navStyle.active : ''}`} href="/portfolio">Portfolio</Link></li>
+                <li><Link className={`${navStyle.link} ${pathname == '/posts' ? navStyle.active : ''}`} href="/posts">Blog</Link></li>
                 <li><Link className={`${navStyle.link} ${pathname == '/contact' ? navStyle.active : ''}`} href="/contact">Contact</Link></li>
             </ul>
             <button onClick={toggleNavbar} className={navStyle.menuBar}>

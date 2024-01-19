@@ -1,5 +1,11 @@
 import Container from "../components/Container";
-import style from "./portfolio.module.css"
+import style from "./portfolio.module.css";
+
+export const metadata = {
+    title: 'Portfolio',
+    description: 'portfolio',
+}
+
 export default function Portfolio() {
     return (
         <section>

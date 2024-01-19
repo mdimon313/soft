@@ -4,6 +4,11 @@ import ContentTitle from "../ContentTitle";
 import style from './softdev.module.css'
 import soft1 from "@/public/subpage/soft1.jpg";
 
+export const metadata = {
+    title: 'Software Development Trainig',
+    description: 'Software Development Trainig',
+}
+
 export default function SoftwareDevelopmentTraining() {
     return (
         <section>
