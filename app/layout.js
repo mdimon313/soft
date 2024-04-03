@@ -6,7 +6,7 @@ import Footer from './components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Welcome to Soft',
+  title: 'Welcome to Nur-Soft',
   description: 'Build Your Own Software',
 }
 
