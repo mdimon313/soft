@@ -1,6 +1,7 @@
 .footer {
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: var(--primary-bg);
   color: var(--text-color);
   padding: 2rem 0;
